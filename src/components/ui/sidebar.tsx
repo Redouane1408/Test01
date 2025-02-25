@@ -358,7 +358,7 @@ const SidebarHeader = React.forwardRef<
     <div
       ref={ref}
       data-sidebar="header"
-      className={cn("flex flex-col gap-2 p-2", className)}
+      className={cn("flex flex-col gap-2 p-64", className)}
       {...props}
     />
   )
@@ -759,5 +759,6 @@ export {
   SidebarRail,
   SidebarSeparator,
   SidebarTrigger,
+  // eslint-disable-next-line react-refresh/only-export-components
   useSidebar,
 }

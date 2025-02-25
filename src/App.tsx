@@ -7,7 +7,7 @@ import "@fontsource/poppins/200.css"; // ExtraLight
 
 function App() {
 
-  return <div>App</div>;
+  return ;
 }
 
 export default App;
