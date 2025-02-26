@@ -32,9 +32,13 @@ export function ThemeSwitch() {
   };
 
   return (
-    <div className="flex items-center space-x-2">
-      <Label>{isDark ? "Dark Mode" : "Light Mode"}</Label>
-      <Switch checked={isDark} onCheckedChange={toggleTheme} />
+    <div className="fixed top-4 right-4 flex items-center space-x-3">
+    <Label>{isDark ? "Dark Mode" : "Light Mode"}</Label>
+            <Switch
+            checked={isDark}
+            onCheckedChange={toggleTheme}
+            className="w-auto h-5"
+            />
     </div>
   );
 }
